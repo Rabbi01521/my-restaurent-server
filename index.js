@@ -185,9 +185,9 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("ElectroHub Server is running ...");
+  res.send("Red Onion Server is running ...");
 });
 
 app.listen(port, (req, res) => {
-  console.log("ElectroHub Server is running at port", port);
+  console.log("Red Onion Server is running at port", port);
 });
